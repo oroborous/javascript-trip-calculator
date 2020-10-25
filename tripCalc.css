@@ -1,3 +1,5 @@
-#output {
+.output {
     display: none;
+    padding-top: 15px;
+    font-size: larger;
 }

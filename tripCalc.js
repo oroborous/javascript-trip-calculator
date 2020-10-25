@@ -1,3 +1,8 @@
+// The line below ensures that no JavaScript will run
+// until the document (the web page) is completely
+// loaded and the DOM is ready to access. We put all
+// our JavaScript code and functions inside the curly
+// braces of the ready function.
 $(document).ready(function () {
     // event handlers
     $("button").click(calculateTrip);
@@ -54,6 +59,9 @@ $(document).ready(function () {
 
         // Update the text in the span with id="tripCost"
         $("#tripCost").text(costOfGasDisplay);
+
+        // Unhide the results div
+        $(".output").show();
     }
 
 });
