@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81338887-0c99-471a-bc28-a017e0622d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index-bootstrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-bootstrap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripCalc.css" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tripCalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +60,34 @@
       <updated>1603555532723</updated>
       <workItem from="1603555536449" duration="2897000" />
       <workItem from="1603587172884" duration="303000" />
-      <workItem from="1603643546279" duration="2156000" />
+      <workItem from="1603643546279" duration="3549000" />
     </task>
+    <task id="LOCAL-00001" summary="Added second Bootstrap example page">
+      <created>1603645742886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603645742886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added second Bootstrap example page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added second Bootstrap example page" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="124" y="0" key="CommitChangelistDialog2" timestamp="1603645742212">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="124" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645742212" />
+    <state x="43" y="18" key="Vcs.Push.Dialog.v2" timestamp="1603645744488">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="43" y="18" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645744488" />
     <state x="449" y="0" width="1051" height="960" key="find.popup" timestamp="1603645070657">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
