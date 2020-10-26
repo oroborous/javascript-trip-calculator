@@ -33,20 +33,20 @@ function calculateTrip() {
     // Calculate the total hours for the trip
     var hours = milesDriven / milesPerHour;
 
-    // Round the hours to one decimal place for display
-    var hoursDisplay = hours.toFixed(1);
-
-    // Display an alert with the total hours
-    alert(`You trip will take ${hoursDisplay} hours.`);
-
     // Calculate the total gas used
     var totalGallonsUsed = milesDriven / milesPerGallon;
 
     // Calculate the cost for that many gallons
     var costOfGas = totalGallonsUsed * dollarsPerGallon;
 
+    // Round the hours to one decimal place for display
+    var hoursDisplay = hours.toFixed(1);
+
     // Round the cost to dollars/cents for display
     var costOfGasDisplay = costOfGas.toFixed(2);
+
+    // Display an alert with the total hours
+    alert(`You trip will take ${hoursDisplay} hours.`);
 
     // Display an alert with the trip cost
     alert(`Your trip will cost $${costOfGasDisplay} for gas.`);
