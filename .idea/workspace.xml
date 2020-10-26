@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81338887-0c99-471a-bc28-a017e0622d26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripCalc-popups.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc-popups.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/javapuppy/javascript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +61,7 @@
       <workItem from="1603643546279" duration="7584000" />
       <workItem from="1603732390156" duration="29000" />
       <workItem from="1603732429034" duration="62000" />
-      <workItem from="1603738303870" duration="38000" />
+      <workItem from="1603738303870" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="Added second Bootstrap example page">
       <created>1603645742886</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603677056870</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved output statements to the end">
+      <created>1603738355293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603738355293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,23 +101,30 @@
     <MESSAGE value="Added second Bootstrap example page" />
     <MESSAGE value="Added BG color, removed step from inputs, added H1" />
     <MESSAGE value="Added demo for trip calculator with popups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added demo for trip calculator with popups" />
+    <MESSAGE value="Moved output statements to the end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved output statements to the end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603651887105">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603651887105" />
-    <state x="-1890" y="177" key="CommitChangelistDialog2" timestamp="1603677056237">
-      <screen x="-1920" y="177" width="1280" height="680" />
+    <state x="3045" y="80" key="CommitChangelistDialog2" timestamp="1603738354403">
+      <screen x="3000" y="80" width="1920" height="1040" />
     </state>
     <state x="-1890" y="177" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677056237" />
     <state x="124" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647678166" />
-    <state x="-1920" y="177" key="Vcs.Push.Dialog.v2" timestamp="1603677059003">
-      <screen x="-1920" y="177" width="1280" height="680" />
+    <state x="3045" y="80" key="CommitChangelistDialog2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738354403" />
+    <state x="3590" y="181" key="FileChooserDialogImpl" timestamp="1603738535762">
+      <screen x="3000" y="80" width="1920" height="1040" />
+    </state>
+    <state x="3590" y="181" key="FileChooserDialogImpl/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738535762" />
+    <state x="3000" y="80" key="Vcs.Push.Dialog.v2" timestamp="1603738358531">
+      <screen x="3000" y="80" width="1920" height="1040" />
     </state>
     <state x="-1920" y="177" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677059003" />
     <state x="43" y="18" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647680878" />
+    <state x="3000" y="80" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738358531" />
     <state x="449" y="0" width="1051" height="960" key="find.popup" timestamp="1603645070657">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

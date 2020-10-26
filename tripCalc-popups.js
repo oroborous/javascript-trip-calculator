@@ -46,7 +46,7 @@ function calculateTrip() {
     var costOfGasDisplay = costOfGas.toFixed(2);
 
     // Display an alert with the total hours
-    alert(`You trip will take ${hoursDisplay} hours.`);
+    alert(`Your trip will take ${hoursDisplay} hours.`);
 
     // Display an alert with the trip cost
     alert(`Your trip will cost $${costOfGasDisplay} for gas.`);
