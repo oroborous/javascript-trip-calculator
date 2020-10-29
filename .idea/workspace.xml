@@ -16,6 +16,7 @@
         <option value="HTML File" />
         <option value="jQuery HTML" />
         <option value="JavaScript File" />
+        <option value="jQuery JS" />
       </list>
     </option>
   </component>
@@ -29,7 +30,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1jKb3QF01RiZ7X4KViVDhedleDU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/javapuppy/javascript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javapuppy/javascript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,6 +74,7 @@
       <workItem from="1603732429034" duration="62000" />
       <workItem from="1603738303870" duration="889000" />
       <workItem from="1603912783621" duration="10024000" />
+      <workItem from="1603998195207" duration="2713000" />
     </task>
     <task id="LOCAL-00001" summary="Added second Bootstrap example page">
       <created>1603645742886</created>
@@ -118,7 +122,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added second Bootstrap example page" />
@@ -146,9 +150,10 @@
       <screen x="3000" y="80" width="1920" height="1040" />
     </state>
     <state x="3590" y="181" key="FileChooserDialogImpl/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738535762" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1603933637944">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1603998915875">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="0" y="0" key="SettingsEditor/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603998915875" />
     <state x="0" y="0" key="SettingsEditor/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603933637944" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603916447568">
       <screen x="0" y="0" width="1500" height="960" />
@@ -161,9 +166,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="449" y="0" width="1051" height="960" key="find.popup/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645070657" />
-    <state x="163" y="3" width="1177" height="956" key="search.everywhere.popup" timestamp="1603933614454">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="209" y="3" width="1507" height="1036" key="search.everywhere.popup" timestamp="1603998894757">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="209" y="3" width="1507" height="1036" key="search.everywhere.popup/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603998894757" />
     <state x="163" y="3" width="1177" height="956" key="search.everywhere.popup/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603933614454" />
   </component>
 </project>
