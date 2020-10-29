@@ -14,6 +14,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="jQuery HTML" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -69,7 +70,7 @@
       <workItem from="1603732390156" duration="29000" />
       <workItem from="1603732429034" duration="62000" />
       <workItem from="1603738303870" duration="889000" />
-      <workItem from="1603912783621" duration="3368000" />
+      <workItem from="1603912783621" duration="10024000" />
     </task>
     <task id="LOCAL-00001" summary="Added second Bootstrap example page">
       <created>1603645742886</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603738551083</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Converted to jQuery">
+      <created>1603916436199</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603916436200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,8 @@
     <MESSAGE value="Added demo for trip calculator with popups" />
     <MESSAGE value="Moved output statements to the end" />
     <MESSAGE value="Typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo" />
+    <MESSAGE value="Converted to jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted to jQuery" />
   </component>
   <component name="WindowStateProjectService">
     <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603913822731">
@@ -126,33 +135,35 @@
     </state>
     <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603651887105" />
     <state x="142" y="60" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603913822731" />
-    <state x="3045" y="80" key="CommitChangelistDialog2" timestamp="1603738550221">
-      <screen x="3000" y="80" width="1920" height="1040" />
+    <state x="35" y="0" key="CommitChangelistDialog2" timestamp="1603916434795">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="-1890" y="177" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677056237" />
     <state x="124" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647678166" />
+    <state x="35" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603916434795" />
     <state x="3045" y="80" key="CommitChangelistDialog2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738550221" />
     <state x="3590" y="181" key="FileChooserDialogImpl" timestamp="1603738535762">
       <screen x="3000" y="80" width="1920" height="1040" />
     </state>
     <state x="3590" y="181" key="FileChooserDialogImpl/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738535762" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1603914026516">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1603933637944">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603914026516" />
-    <state x="3000" y="80" key="Vcs.Push.Dialog.v2" timestamp="1603738592902">
-      <screen x="3000" y="80" width="1920" height="1040" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603933637944" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603916447568">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="-1920" y="177" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677059003" />
     <state x="43" y="18" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647680878" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603916447568" />
     <state x="3000" y="80" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738592902" />
     <state x="449" y="0" width="1051" height="960" key="find.popup" timestamp="1603645070657">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="449" y="0" width="1051" height="960" key="find.popup/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645070657" />
-    <state x="161" y="1" width="1177" height="956" key="search.everywhere.popup" timestamp="1603913995549">
+    <state x="163" y="3" width="1177" height="956" key="search.everywhere.popup" timestamp="1603933614454">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="161" y="1" width="1177" height="956" key="search.everywhere.popup/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603913995549" />
+    <state x="163" y="3" width="1177" height="956" key="search.everywhere.popup/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603933614454" />
   </component>
 </project>
