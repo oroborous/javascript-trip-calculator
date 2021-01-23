@@ -12,25 +12,25 @@ $(document).ready(function () {
          GATHER INPUT FROM WEB PAGE
          */
         // Get the value from the input box with id="miles"
-        var milesDriven = $("#miles").val();
+        let milesDriven = $("#miles").val();
 
         // Convert to a number data type (including decimals)
         milesDriven = parseFloat(milesDriven);
 
         // Get the value from the input box with id="mpg"
-        var milesPerGallon = $("#mpg").val();
+        let milesPerGallon = $("#mpg").val();
 
         // Convert to a number data type (including decimals)
         milesPerGallon = parseFloat(milesPerGallon);
 
         // Get the value from the input box with id="mph"
-        var milesPerHour = $("#mph").val();
+        let milesPerHour = $("#mph").val();
 
         // Convert to a number data type (truncating decimals)
         milesPerHour = parseInt(milesPerHour);
 
         // Get the value from the input box with id="dpg"
-        var dollarsPerGallon = $("#dpg").val();
+        let dollarsPerGallon = $("#dpg").val();
 
         // Convert to a number data type (including decimals)
         dollarsPerGallon = parseFloat(dollarsPerGallon);
@@ -40,22 +40,22 @@ $(document).ready(function () {
          */
 
         // Calculate the total hours for the trip
-        var hours = milesDriven / milesPerHour;
+        let hours = milesDriven / milesPerHour;
 
         // Round the hours to one decimal place for display
-        var hoursDisplay = hours.toFixed(1);
+        let hoursDisplay = hours.toFixed(1);
 
         // Update the text in the span with id="tripHours"
         $("#tripHours").text(hoursDisplay);
 
         // Calculate the total gas used
-        var totalGallonsUsed = milesDriven / milesPerGallon;
+        let totalGallonsUsed = milesDriven / milesPerGallon;
 
         // Calculate the cost for that many gallons
-        var costOfGas = totalGallonsUsed * dollarsPerGallon;
+        let costOfGas = totalGallonsUsed * dollarsPerGallon;
 
         // Round the cost to dollars/cents for display
-        var costOfGasDisplay = costOfGas.toFixed(2);
+        let costOfGasDisplay = costOfGas.toFixed(2);
 
         // Update the text in the span with id="tripCost"
         $("#tripCost").text(costOfGasDisplay);
