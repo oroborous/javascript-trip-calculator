@@ -3,28 +3,20 @@ function calculateTrip() {
      GATHER INPUT FROM WEB PAGE
      */
     // Get the value from a prompt
-    let milesDriven = prompt("How many miles did you drive?");
-
     // Convert to a number data type (including decimals)
-    milesDriven = parseFloat(milesDriven);
+    let milesDriven = parseFloat( prompt("How many miles did you drive?") );
 
     // Get the value from a prompt
-    let milesPerGallon = prompt("What MPG does your vehicle get?");
-
     // Convert to a number data type (including decimals)
-    milesPerGallon = parseFloat(milesPerGallon);
+    let milesPerGallon = parseFloat( prompt("What MPG does your vehicle get?") );
 
     // Get the value from a prompt
-    let milesPerHour = prompt("What is the average speed in MPH?");
-
     // Convert to a number data type (truncating decimals)
-    milesPerHour = parseInt(milesPerHour);
+    let milesPerHour = parseInt( prompt("What is the average speed in MPH?") );
 
     // Get the value from a prompt
-    let dollarsPerGallon = prompt("How much does gas cost per gallon?");
-
     // Convert to a number data type (including decimals)
-    dollarsPerGallon = parseFloat(dollarsPerGallon);
+    let dollarsPerGallon = parseFloat( prompt("How much does gas cost per gallon?") );
 
     /*
     PERFORM CALCULATIONS AND DISPLAY OUTPUT
@@ -39,15 +31,11 @@ function calculateTrip() {
     // Calculate the cost for that many gallons
     let costOfGas = totalGallonsUsed * dollarsPerGallon;
 
-    // Round the hours to one decimal place for display
-    let hoursDisplay = hours.toFixed(1);
-
-    // Round the cost to dollars/cents for display
-    let costOfGasDisplay = costOfGas.toFixed(2);
-
     // Display an alert with the total hours
-    alert(`Your trip will take ${hoursDisplay} hours.`);
+    // Round the hours to one decimal place for display
+    alert(`Your trip will take ${hours.toFixed(1)} hours.`);
 
     // Display an alert with the trip cost
-    alert(`Your trip will cost $${costOfGasDisplay} for gas.`);
+    // Round the cost to dollars/cents for display
+    alert(`Your trip will cost $${costOfGas.toFixed(2)} for gas.`);
 }

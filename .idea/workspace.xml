@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81338887-0c99-471a-bc28-a017e0622d26" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tripCalc-popups.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc-popups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tripCalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/tripCalc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,7 @@
         <option value="jQuery HTML" />
         <option value="JavaScript File" />
         <option value="jQuery JS" />
+        <option value="jQuery Template" />
       </list>
     </option>
   </component>
@@ -62,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javapuppy/javascript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -74,7 +77,7 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,6 +96,10 @@
       <workItem from="1603738303870" duration="889000" />
       <workItem from="1603912783621" duration="10024000" />
       <workItem from="1603998195207" duration="2713000" />
+      <workItem from="1611774692378" duration="5540000" />
+      <workItem from="1612204599970" duration="1218000" />
+      <workItem from="1612381183129" duration="2143000" />
+      <workItem from="1616980043034" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="Added second Bootstrap example page">
       <created>1603645742886</created>
@@ -140,7 +147,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -164,22 +171,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Converted to jQuery" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603913822731">
+    <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1611774919400">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="142" y="60" width="1178" height="759" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603651887105" />
-    <state x="142" y="60" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603913822731" />
+    <state x="142" y="60" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1611774919400" />
     <state x="35" y="0" key="CommitChangelistDialog2" timestamp="1603916434795">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="-1890" y="177" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677056237" />
-    <state x="124" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647678166" />
     <state x="35" y="0" key="CommitChangelistDialog2/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603916434795" />
-    <state x="3045" y="80" key="CommitChangelistDialog2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738550221" />
-    <state x="3590" y="181" key="FileChooserDialogImpl" timestamp="1603738535762">
-      <screen x="3000" y="80" width="1920" height="1040" />
+    <state x="381" y="63" key="FileChooserDialogImpl" timestamp="1612384667532">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="3590" y="181" key="FileChooserDialogImpl/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738535762" />
+    <state x="381" y="63" key="FileChooserDialogImpl/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1612384667532" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1603998915875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -188,18 +191,11 @@
     <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1603916447568">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="-1920" y="177" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@-1920.177.1280.680" timestamp="1603677059003" />
-    <state x="43" y="18" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603647680878" />
     <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603916447568" />
-    <state x="3000" y="80" key="Vcs.Push.Dialog.v2/0.0.1500.960/3000.80.1920.1040/-1920.96.1920.1040@3000.80.1920.1040" timestamp="1603738592902" />
-    <state x="449" y="0" width="1051" height="960" key="find.popup" timestamp="1603645070657">
+    <state x="164" y="4" width="1177" height="956" key="search.everywhere.popup" timestamp="1612382384527">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="449" y="0" width="1051" height="960" key="find.popup/0.0.1500.960/-1920.177.1280.680@0.0.1500.960" timestamp="1603645070657" />
-    <state x="209" y="3" width="1507" height="1036" key="search.everywhere.popup" timestamp="1603998894757">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
     <state x="209" y="3" width="1507" height="1036" key="search.everywhere.popup/-1440.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603998894757" />
-    <state x="163" y="3" width="1177" height="956" key="search.everywhere.popup/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1603933614454" />
+    <state x="164" y="4" width="1177" height="956" key="search.everywhere.popup/0.0.1500.960/-1920.96.1920.1040/3000.80.1920.1040@0.0.1500.960" timestamp="1612382384527" />
   </component>
 </project>
